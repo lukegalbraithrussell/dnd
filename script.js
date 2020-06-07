@@ -7,9 +7,6 @@ var cityIcon = L.icon({
     // popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
 });
 
-
-var customPopup = "Mozilla Toronto Offices<br/><img src='http://joshuafrazier.info/images/maptime.gif' alt='maptime logo gif' width='350px'/>";
-
 // specify popup options 
 var customOptions =
 {
