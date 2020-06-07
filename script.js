@@ -56,7 +56,7 @@ var bordersmap = L.imageOverlay('images/outline.png', bounds).addTo(borders);
 var city_names = L.imageOverlay('images/text.png', bounds).addTo(borders);
 
 var routes = L.layerGroup();
-var routemap = L.imageOverlay('images/routes.png', bounds).addTo(routes);
+var routemap = L.imageOverlay('images/route.png', bounds).addTo(routes);
 
 
 
