@@ -64,7 +64,7 @@ var map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: 0,
     maxZoom: 2,
-    layers: [borders, cities] // default layers
+    layers: [borders, cities, routes] // default layers
 });
 
 var image = L.imageOverlay('images/fog.png', bounds).addTo(map);
@@ -74,8 +74,8 @@ city_names.addTo(map);
 var overlays = {
     "Borders" : borders,
     "Cities": cities,
-    "High Tide": tides,
-    "Party Route": routes
+    "Party Route": routes,
+    "High Tide": tides
 
 };
 
